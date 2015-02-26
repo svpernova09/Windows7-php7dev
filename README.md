@@ -6,10 +6,13 @@ This box is intended for use to testing PHP 7
 
 ## Set up
 
+* Download the Windows7-php7dev.box vagrant box
+* Run: ```vagrant box add path/to/Windows7-php7dev.box```
 * Clone this repo
 * cd to this folder
 * ```vagrant up```
 
 ## TODO
 
-* LOTS!
+* Need web host for our 7.6GB box file
+* Feedback!
