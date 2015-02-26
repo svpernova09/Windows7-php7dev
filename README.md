@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This box is intended for use to testing PHP 7
+Quickly spin up a Windows 7 environment for building PHP 7.
 
 ## Set up
 
