@@ -10,9 +10,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   puts "\nNOTE: After the box boots, your app will be available at e.g. http://192.168.50.1:8080"
   puts "      If Vagrant won't detect the machine state, just Ctrl + C after the GUI is up\n\n"
  
-  # http://blog.syntaxc4.net/post/2014/09/03/windows-boxes-for-vagrant-courtesy-of-modern-ie.aspx
-  config.vm.box = "Windows7-php7dev"
-  # config.vm.box_url = "http://aka.ms/vagrant-win7-ie11"
+  config.vm.box = "Svpernova09/Windows7-php7dev"
  
   # Makes the host machine available as "192.168.50.1" on the guest
   config.vm.network "private_network", ip: "192.168.50.2"
@@ -26,3 +24,4 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     vb.gui = true
   end
 end
+
